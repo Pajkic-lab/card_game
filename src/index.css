@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(9, 62, 83);
+  color: white;
+}
+
+.c1{
+  border: 1px solid black;
+  background-color: green;
+}
+
+.tbutton{
+  position: relative;
+  left: 25%;
+}
+
+.inp{
+  background-color: white;
+  position: relative;
+  left: 20%;
+}
+
+.bbutton{
+  position: relative;
+  left: 20%;
+}

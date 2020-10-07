@@ -1,0 +1,14 @@
+{
+    "extends": [ "eslint:recommended", "plugin:react/recommended", "plugin:react-redux/recommended" ],
+    "plugins": [ "react", "react-redux" ],
+    "rules": {
+        "no-unused-vars": "warn",
+        "react/jsx-uses-react": "warn",
+        "react/jsx-uses-vars": "warn",
+        "react-redux/connect-prefer-named-arguments": 2
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+      }
+}
